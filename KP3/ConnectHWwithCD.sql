@@ -1,0 +1,1 @@
+ALTER TABLE `Больничная_палата` ADD CONSTRAINT `fk_Палата_Детали` FOREIGN KEY (`Палата`) REFERENCES `Палаты_Детали` (`Палата`) 
